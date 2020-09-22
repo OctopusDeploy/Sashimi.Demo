@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
 <Project Sdk="Microsoft.NET.Sdk">
     <PropertyGroup>
         <AssemblyName>Sashimi.Demo</AssemblyName>
@@ -17,6 +18,6 @@
     <ItemGroup>
     </ItemGroup>
     <ItemGroup>
-      <PackageReference Include="Sashimi.Server.Contracts" Version="8.1.1-john-templating0006" />
+      <PackageReference Include="Sashimi.Server.Contracts" Version="8.3.4-mark-warningsapi0003" />
     </ItemGroup>
 </Project>
