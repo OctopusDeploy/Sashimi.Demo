@@ -46,9 +46,6 @@ changeBuildType(RelativeId("Build")) {
             equals("system.Octopus.Purpose", "Build", "RQ_2")
         }
         add {
-            exists("system.Octopus.DotnetSdk3.1", "RQ_3")
-        }
-        add {
             exists("system.Octopus.DotnetSdk472", "RQ_4")
         }
         add {
@@ -60,5 +57,5 @@ changeBuildType(RelativeId("Build")) {
     }
 
     expectDisabledSettings()
-    updateDisabledSettings("RQ_2", "RQ_3", "RQ_4")
+    updateDisabledSettings("RQ_2", "RQ_4")
 }
