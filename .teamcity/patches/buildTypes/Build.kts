@@ -36,5 +36,8 @@ changeBuildType(RelativeId("Build")) {
         add {
             exists("DotNetFrameworkTargetingPack4.7.2_Path")
         }
+        add {
+            exists("DotNetCoreSDK3.1_Path")
+        }
     }
 }
