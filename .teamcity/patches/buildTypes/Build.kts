@@ -46,9 +46,6 @@ changeBuildType(RelativeId("Build")) {
             equals("system.Octopus.Purpose", "Build", "RQ_2")
         }
         add {
-            exists("system.Octopus.DotnetSdk472", "RQ_4")
-        }
-        add {
             exists("DotNetFrameworkTargetingPack4.7.2_Path")
         }
         add {
@@ -57,5 +54,5 @@ changeBuildType(RelativeId("Build")) {
     }
 
     expectDisabledSettings()
-    updateDisabledSettings("RQ_2", "RQ_4")
+    updateDisabledSettings("RQ_2")
 }
